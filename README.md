@@ -5,8 +5,8 @@ salvaguardas y sus números. Detalle técnico en `casos/`.
 
 | # | Caso | Qué hace | Estado |
 |---|------|----------|--------|
-| 1 | [Cola de llamados para SDRs](casos/01-cola-sdr.md) | Réplica viva CRM → cola de llamados (3.600+ filas, fresca cada 2 min) | Producción |
-| 2 | [Reactivación de Closed Lost](casos/02-reactivacion-closed-lost.md) | Secuencias de WhatsApp + recontacto a 40 días + escalado humano | Producción |
+| 1 | [Cola de llamados para SDRs](casos/01-cola-sdr.md) | Réplica viva CRM → cola de llamados siempre fresca | Producción |
+| 2 | [Reactivación de Closed Lost](casos/02-reactivacion-closed-lost.md) | Secuencias de WhatsApp + recontacto programado + escalado humano | Producción |
 | 3 | [Auto-respuesta de Marketplace con IA](casos/03-respuesta-marketplace.md) | Responde consultas de avisos automáticamente | Producción |
 
 ## Cómo trabajo

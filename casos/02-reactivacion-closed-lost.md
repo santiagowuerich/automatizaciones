@@ -9,12 +9,12 @@ y hacerlo mal (spam) quema el número.
 
 ## Solución
 
-Motor de reactivación en 5 workflows:
+Motor de reactivación en varios workflows:
 
-- **Secuencia de 4 mensajes** con plantillas aprobadas (apertura, seguimiento ×2, cierre), espaciados en el tiempo.
+- **Secuencia de mensajes** con plantillas aprobadas (apertura, seguimientos, cierre), espaciados en el tiempo.
 - **Planilla de estados**: cada lead tiene estado (`llamar`, `sin_respuesta`, `agotado`...) y el sistema decide el siguiente paso.
 - **Respuestas humanas reales:** si el lead responde o el caso escala, la conversación pasa a un SDR con contexto.
-- **Recontacto a 40 días** para los que no respondieron: segundo ciclo automático, sin intervención.
+- **Recontacto programado** para los que no respondieron: nuevo ciclo automático, sin intervención.
 - **Bajas respetadas:** quien pide no ser contactado sale del sistema y no vuelve a entrar.
 
 ## Salvaguardas
